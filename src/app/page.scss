@@ -9,7 +9,10 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background: url('/blob.svg');
+  background-size:cover;
 }
+
 
 .container {
   max-width: 800px;
@@ -32,9 +35,6 @@ p {
 img {
   max-width: 100%;
   height: auto;
-  margin: 20px 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
 }
 
 a {

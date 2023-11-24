@@ -1,3 +1,4 @@
+
 header {
   position: fixed;
   top: 0;
@@ -9,7 +10,8 @@ header {
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   z-index: 1000;
-  text-align: center;
+  font-family: Trebuchet MS, sans-serif;
+  
 
   .div {
     display: flex;
@@ -34,7 +36,6 @@ header {
       font-weight: bold;
       margin-left: 20px;
       font-size: 18px;
-      font-family: Arial, sans-serif; /* Ou substitua por sua fonte profissional desejada */
     }
   }
 }
