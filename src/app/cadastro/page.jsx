@@ -81,7 +81,8 @@ const Cadastro = () => {
 
   return (
     <div>
-      <h1>Cadastro</h1>
+
+      <h1>CADASTRO</h1>
       {enviado ? (
         <p style={{ color: 'red' }}>Obrigado, o formulário foi preenchido!</p>
       ) : (
@@ -89,63 +90,63 @@ const Cadastro = () => {
           {error && <p style={{ color: 'red' }}>{error}</p>}
           <form onSubmit={handleCadastro}>
             <label>
-              Nome Completo:
+              
               <input
-                type="text"
+                type="text" placeholder='Nome Completo:' required
                 value={nomeCompleto}
                 onChange={(e) => setNomeCompleto(e.target.value)}
               />
             </label>
 
             <label>
-              Email:
+              
               <input
-                type="email"
+                type="email" placeholder='Email:' required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
             </label>
 
             <label>
-              CNPJ:
+              
               <input
-                type="text"
+                type="text" placeholder='CNPJ:' required
                 value={cnpj}
                 onChange={(e) => setCnpj(e.target.value)}
               />
             </label>
 
             <label>
-              Endereço:
+              
               <input
-                type="text"
+                type="text" placeholder='Endereço:' required
                 value={endereco}
                 onChange={(e) => setEndereco(e.target.value)}
               />
             </label>
 
             <label>
-              Nome do Hospital:
+              
               <input
-                type="text"
+                type="text" placeholder='Nome do Hospital:' required
                 value={nomeHospital}
                 onChange={(e) => setNomeHospital(e.target.value)}
               />
             </label>
 
             <label>
-              Senha:
+              
               <input
-                type="password"
+                type="password" placeholder='Senha:' required
                 value={senha}
                 onChange={(e) => setSenha(e.target.value)}
               />
             </label>
 
             <label>
-              Confirmar Senha:
+              
               <input
-                type="password"
+                type="password" placeholder='Confirmar Senha:' required
                 value={confirmarSenha}
                 onChange={(e) => setConfirmarSenha(e.target.value)}
               />

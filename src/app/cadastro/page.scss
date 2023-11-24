@@ -1,22 +1,23 @@
-// page.module.scss
+
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 255, 255); /* Altera a cor do fundo para preto */
+    background-color: rgb(255, 255, 255); 
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    border: 1px solid #000;
   }
   
   .cadastro-container {
-    max-width: 400px;
+    max-width: 100px;
     width: 100%;
-    padding: 20px;
-    border: 1px solid #ccc;
+    padding: px;
+    border: 1px solid #000;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: white; /* Mantém o fundo preto */
+    background-color: rgb(25, 0, 255); 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,15 +25,19 @@ body {
   
   h1 {
     text-align: center;
-    margin-bottom: 20px;
-    font-size: 50px; /* Aumenta o tamanho da fonte para 36px */
-    color: white; /* Altera a cor do texto para branco */
-    font-family: 'Baskerville; '/* Outra fonte pode ser usada aqui */
+    margin-bottom: 10px;
+    font-size: 50px; 
+    color: #0070f3; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
   
   form {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: center;
   
     label {
       margin-bottom: 8px;
@@ -41,15 +46,16 @@ body {
     input {
       padding: 8px;
       margin-bottom: 16px;
-      border: 1px solid #ccc;
+      border: 1px solid #000;
       border-radius: 4px;
+      width: 92%;
     }
   
     button {
       padding: 10px;
       background-color: #0070f3;
       color: white;
-      border: none;
+      border: 1px solid;
       border-radius: 4px;
       cursor: pointer;
   
