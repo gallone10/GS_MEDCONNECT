@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import style from './page.scss'
 
+
 export default function Cabecalho() {
   return (
     <header className='cabecalho'>
@@ -11,7 +12,7 @@ export default function Cabecalho() {
       </div>
     <nav className="menu">
       <Link href="/">HOME</Link>
-      <Link href="/produtos">PRODUTOS</Link>
+      <Link href="/produto">PRODUTO</Link>
       <Link href="/cadastro">CADASTRO</Link>
       <Link href="/sobre-nos" >SOBRE NOS</Link>
     </nav>
