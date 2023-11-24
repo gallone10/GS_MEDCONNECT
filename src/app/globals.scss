@@ -1,7 +1,7 @@
 header {
   position: fixed;
   top: 0;
-  left: 0; /* Corrija o valor que estava incorreto */
+  left: 0; 
   width: 100%;
   background-size: cover;
   background-position: left;
@@ -16,68 +16,42 @@ header {
     align-items: center;
   }
 
-  /* Estilo da logo */
+  
   .logo {
     display: inline-block;
     margin-right: 20px;
   }
 
-  /* Estilo da navegação */
+ 
   nav {
     display: inline-block;
     text-align: center;
 
-    /* Estilo dos links */
+    
     a {
       text-decoration: none;
       color: #ff0000;
       font-weight: bold;
       margin-left: 20px;
       font-size: 18px;
-      font-family: Arial, sans-serif; /* Ou substitua por sua fonte profissional desejada */
+      font-family: Arial, sans-serif; 
     }
   }
 }
 
-/* Estilos do conteúdo */
+
 .content {
   margin-top: 80px;
   text-align: center;
 
-  /* Outros estilos do conteúdo */
+  
   h1 {
-    /* Estilos do título */
+    
   }
 
-  /* Estilos adicionais conforme necessário */
+  
 }
 
-.footer{
-  /* styles/Footer.module.css */
 
-  background-color: #333;
-  color: white;
-  padding: 10px;
-  text-align: center;
-}
-
-h1 {
-  font-size: 1.0em;
-  margin-bottom: 10px;
-}
-
-p {
-  margin: 5px 0;
-}
-
-/* Estilo para destacar os nomes dos integrantes */
-p:nth-child(odd) {
-  font-weight: bold;
-}
-
-/* Adiciona um espaçamento entre os integrantes */
-p:nth-child(even) {
-  margin-bottom: 15px;
-}
 
 

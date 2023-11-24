@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './rodape.scss';
 
 export default function Rodape() {
     return (

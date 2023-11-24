@@ -23,10 +23,6 @@ export default function RootLayout({ children }) {
           </div>
         </div>
 
-        
-      
-       
-       
         {children}
         <Rodape/>
       </body>
