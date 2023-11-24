@@ -4,6 +4,7 @@ import style from '../app/page.scss'
 
 const HomePage = () => {
   return (
+    
     <div>
       <h1>Relógio IoT para Monitoramento de Sinais Vitais</h1>
       <p>
@@ -16,6 +17,7 @@ const HomePage = () => {
       <Link href="/about">
         Saiba mais sobre o relógio IoT
       </Link>
+      
     </div>
   );
 };
