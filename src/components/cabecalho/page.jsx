@@ -14,7 +14,7 @@ export default function Cabecalho() {
       <Link href="/">HOME</Link>
       <Link href="/login">LOGIN</Link>
       <Link href="/cadastro">CADASTRO</Link>
-      <Link href="/sobre-nos" >SOBRE NOS</Link>
+      <Link href="/sobre" >SOBRE NOS</Link>
     </nav>
   </header>
   )
