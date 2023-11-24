@@ -17,10 +17,7 @@ export default function RootLayout({ children }) {
       <body>
         <Cabecalho/>
         <div class="div">
-          <div class="logo">
-            <image src="../assets/img/Texto_do_seu_parágrafo-removebg-preview.png" alt="Logo do Site"> </image>
-            
-          </div>
+      
         </div>
 
         {children}

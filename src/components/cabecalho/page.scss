@@ -1,0 +1,21 @@
+.cabecalho{
+    display: inline-flex;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin-right:  30px;
+}
+
+.imagem{
+    width: 50%;
+    justify-content: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
