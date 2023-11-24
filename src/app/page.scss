@@ -1,15 +1,31 @@
+/* styles/page.scss */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 .container {
   max-width: 800px;
-  margin: 0 auto;
   text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
 h1 {
-  color: #333;
+  color: #fff;
 }
 
 p {
-  color: #666;
+  color: #fff;
   line-height: 1.6;
 }
 
@@ -18,14 +34,17 @@ img {
   height: auto;
   margin: 20px 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
 a {
   color: #0070f3;
   text-decoration: none;
   font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #004080;
 }
