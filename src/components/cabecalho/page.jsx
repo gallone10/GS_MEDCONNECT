@@ -12,7 +12,7 @@ export default function Cabecalho() {
       </div>
     <nav className="menu">
       <Link href="/">HOME</Link>
-      <Link href="/produto">LOGIN</Link>
+      <Link href="/login">LOGIN</Link>
       <Link href="/cadastro">CADASTRO</Link>
       <Link href="/sobre-nos" >SOBRE NOS</Link>
     </nav>
