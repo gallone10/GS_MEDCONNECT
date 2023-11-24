@@ -4,9 +4,7 @@ import style from '../app/page.scss'
 
 const HomePage = () => {
   return (
-    
-    <div className='fundo'>
-
+    <div>
       <Link href="/about">
         Saiba mais sobre o relógio IoT
       </Link>
