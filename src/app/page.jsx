@@ -10,7 +10,7 @@ const HomePage = () => {
       <p>
         Bem-vindo à nossa aplicação que apresenta informações sobre um relógio IoT que monitora os sinais vitais de pacientes.
       </p>
-      <img src= "../assets/relogio.jpg" alt="Relógio IoT"/>
+      {/* <img src= "../assets/relogio.jpg" alt="Relógio IoT"/> */}
       <p>
         Este relógio é usado pelos médicos para monitorar os sinais vitais dos pacientes de forma conveniente.
       </p>
