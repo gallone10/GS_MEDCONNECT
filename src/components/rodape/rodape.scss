@@ -1,16 +1,16 @@
 footer {
   width: 100%;
-  background-color: #000000; // Cor de fundo desejada
-  color: white; // Cor do texto desejada
+  background-color: #000000; 
+  color: white; 
   text-align: center;
-  padding: 20px; // Adapte conforme necessário
-   
-
+  padding: 10px; 
+  font-size: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .rodape {
-  margin-top: 30px; 
+    line-height: 1.5;
+  margin-top: 20px; 
 }
