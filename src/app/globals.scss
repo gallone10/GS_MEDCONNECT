@@ -52,3 +52,32 @@ header {
   /* Estilos adicionais conforme necessário */
 }
 
+.footer{
+  /* styles/Footer.module.css */
+
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.0em;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+/* Estilo para destacar os nomes dos integrantes */
+p:nth-child(odd) {
+  font-weight: bold;
+}
+
+/* Adiciona um espaçamento entre os integrantes */
+p:nth-child(even) {
+  margin-bottom: 15px;
+}
+
+
