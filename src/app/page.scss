@@ -1,14 +1,39 @@
 /* styles/page.scss */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #000;
+  background-color: #1a1818;
   margin: 0;
   padding: 0;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  
+
+}
+
+.smart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+  
+}
+
+.imagemrelogio{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.DescrSmart{
+  width: 50%;
+  
+  p{
+    margin-right:100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
 }
 
 .container {
@@ -32,13 +57,10 @@ p {
 img {
   max-width: 100%;
   height: auto;
-  margin: 20px 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
 }
 
 a {
-  color: #0070f3;
+  color: #a5a5a5;
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;
@@ -46,5 +68,5 @@ a {
 }
 
 a:hover {
-  color: #004080;
+  color: #757575;
 }

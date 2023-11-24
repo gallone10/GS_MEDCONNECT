@@ -1,0 +1,58 @@
+
+header {
+  
+  
+  width: 100%;
+  background-size: cover;
+  background-position: left;
+  background-color: #000000;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  font-family: Trebuchet MS, sans-serif;
+  
+
+  .div {
+    display: flex;
+    align-items: center;
+  }
+
+  
+  .logo {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+ 
+  nav {
+    display: inline-block;
+    text-align: center;
+
+    
+    a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+      margin-left: 20px;
+      font-size: 18px;
+
+    }
+  }
+}
+
+
+.content {
+  margin-top: 80px;
+  text-align: center;
+
+  
+  h1 {
+    
+  }
+
+  
+}
+
+
+
+
