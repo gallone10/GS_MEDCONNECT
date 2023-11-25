@@ -1,52 +1,65 @@
 "use client";
 import React, { useState } from 'react';
-import style from './page.scss'
+import styles from './page.module.css';
 
-const LoginForm = () => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+const Login = () => {
+  const [email, setEmail] = useState('');
+  const [senha, setSenha] = useState('');
   const [error, setError] = useState('');
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    // Aqui você pode adicionar a lógica de autenticação
-    // por exemplo, validar as credenciais do usuário
-
-    // Simplesmente exibindo as informações no console para demonstração
-    console.log('Username:', username);
-    console.log('Password:', password);
+  const handleLogin = (event) => {
+    event.preventDefault();
 
     // Lógica de autenticação aqui
+    console.log('Email:', email);
+    console.log('Senha:', senha);
+
+    // Exemplo de verificação simples (substitua por lógica real)
+    if (email === 'usuario@example.com' && senha === 'senha123') {
+      setError('');
+      alert('Login bem-sucedido!');
+    } else {
+      setError('Credenciais inválidas. Tente novamente.');
+    }
   };
 
   return (
-    <div>
-      <h1>Login</h1>
-      {error && <p style={{ color: 'red' }}>{error}</p>}
-      <form onSubmit={handleSubmit}>
-        <label>
-          
+    <div className={styles.container}>
+      <form className={styles.form} onSubmit={handleLogin}>
+        <h2 className={styles.title}>Login</h2>
+
+        <label htmlFor="email" className={styles.label}>
+          Email:
           <input
-            type="text" placeholder='Email' required
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-            
+            type="email"
+            id="email"
+            placeholder="Digite seu email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className={styles.input}
           />
         </label>
-        <label>
-          
+
+        <label htmlFor="senha" className={styles.label}>
+          Senha:
           <input
-            type="password" placeholder='Senha:' required
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            
+            type="password"
+            id="senha"
+            placeholder="Digite sua senha"
+            value={senha}
+            onChange={(e) => setSenha(e.target.value)}
+            className={styles.input}
           />
         </label>
-        <button type="submit">Entrar</button>
+
+        <button type="submit" className={styles.button}>
+          Entrar
+        </button>
+
+        {error && <p className={styles.error}>{error}</p>}
       </form>
     </div>
   );
 };
 
-export default LoginForm;
+export default Login;

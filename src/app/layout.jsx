@@ -2,7 +2,7 @@ import Cabecalho from "@/components/cabecalho/page"
 import './globals.scss'
 import Image from "next/image"
 import Link from "next/link";
-import Rodape from "@/components/rodape/rodape"
+
 
 
 
@@ -19,9 +19,8 @@ export default function RootLayout({ children }) {
         <div class="div">
       
         </div>
-
+       
         {children}
-        <Rodape/>
       </body>
     </html>
   )

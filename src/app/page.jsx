@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import style from '../app/page.scss'
+import style from './page.scss'
 
 const HomePage = () => {
   return (

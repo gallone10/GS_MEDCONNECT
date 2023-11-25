@@ -1,41 +1,35 @@
-// pages/about.js
-import React from 'react';
+import Head from 'next/head';
+import style from './page.module.css'
 
-const AboutPage = () => {
+const About = () => {
   return (
-    <div className="container">
-      <h1>Sobre Nós</h1>
+    <>
+      <Head>
+        <title>Sobre Nós - MedConnect</title>
+        <meta name="description" content="Conheça mais sobre a MedConnect e nosso inovador relógio IoT para monitoramento médico." />
+      </Head>
 
-      <p>Bem-vindo à MedConnect, especialistas em inovação na área da saúde. Nosso compromisso é criar soluções avançadas, como nosso revolucionário relógio que monitora os sinais vitais dos pacientes, proporcionando um cuidado mais eficiente e personalizado.</p>
+      <div className="about-container">
+        <h1>Sobre a MedConnect</h1>
+        <p>Bem-vindo à MedConnect, líder em inovação na área da saúde por meio de tecnologia avançada.</p>
 
-      <div className="team-member">
-        <h2>Leonardo Cordeiro Scotti (RM550769)</h2>
-        <p>Leonardo é o fundador e líder visionário por trás da MedConnect. Sua paixão pela saúde e tecnologia o impulsionou a criar soluções inovadoras que melhoram a qualidade de vida dos pacientes.</p>
+        <h2>Nossa Missão</h2>
+        <p>Nossa missão na MedConnect é revolucionar a forma como os profissionais de saúde monitoram e cuidam de seus pacientes. Acreditamos que a tecnologia pode desempenhar um papel crucial na promoção da saúde e no diagnóstico precoce.</p>
+
+        <h2>O Relógio MedConnect</h2>
+        <p>O coração da nossa inovação é o Relógio MedConnect, um dispositivo de Internet das Coisas (IoT) criado para médicos comprometidos com a excelência no cuidado do paciente.</p>
+        <p>Equipado com sensores avançados, nosso relógio é capaz de monitorar todos os sinais vitais, incluindo glicose, proporcionando uma visão abrangente do estado de saúde do paciente.</p>
+
+        <h2>Como Funciona</h2>
+        <p>O Relógio MedConnect, quando usado no pulso do médico, estabelece uma conexão contínua com os dados do paciente. Caso seja detectada alguma anomalia nos sinais vitais ou na glicose, o relógio notifica imediatamente o médico, permitindo uma intervenção rápida e eficaz.</p>
+
+        <h2>Compromisso com a Saúde</h2>
+        <p>Estamos comprometidos em capacitar os profissionais de saúde com as ferramentas mais avançadas, garantindo que cada paciente receba cuidados personalizados e de alta qualidade.</p>
+
+        <p>Na MedConnect, acreditamos que o futuro da saúde está na interseção entre a medicina e a tecnologia, e estamos dedicados a liderar esse caminho.</p>
       </div>
-
-      <div className="team-member">
-        <h2>Enzo Ross Gallone (RM551754)</h2>
-        <p>Enzo é um membro essencial da nossa equipe de desenvolvimento. Sua experiência técnica é fundamental para transformar ideias em realidade, garantindo que nossos produtos atendam aos mais altos padrões de qualidade.</p>
-      </div>
-
-      <div className="team-member">
-        <h2>Igor Ribeiro Bezerra (RM550989)</h2>
-        <p>Igor lidera a integração de sistemas em nossa empresa. Sua habilidade em garantir a perfeita funcionalidade de nossas tecnologias é crucial para o sucesso contínuo de nossos produtos.</p>
-      </div>
-
-      <div className="team-member">
-        <h2>Edward de Lima (RM98676)</h2>
-        <p>Edward é o líder criativo de nossa equipe de design, assegurando que a experiência do usuário seja intuitiva e agradável. Seu comprometimento com a estética e a funcionalidade é evidente em cada produto que desenvolvemos.</p>
-      </div>
-
-      <div className="team-member">
-        <h2>Leonardo Ferreira Lizier (RM551509)</h2>
-        <p>Leonardo é responsável pela pesquisa e desenvolvimento contínuo de nossas tecnologias. Sua paixão por inovação mantém a MedConnect na vanguarda do monitoramento de sinais vitais e cuidados com a saúde.</p>
-      </div>
-
-      <p>Na MedConnect, estamos comprometidos em fornecer soluções que redefinem o cuidado com a saúde. Junte-se a nós enquanto continuamos a impulsionar o setor de saúde com tecnologias avançadas e uma equipe dedicada.</p>
-    </div>
+    </>
   );
 };
 
-export default AboutPage;
+export default About;
